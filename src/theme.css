@@ -1,0 +1,418 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("/site/fonts/clash-display-variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Creato;
+  src: url("/site/fonts/creato-regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Creato;
+  src: url("/site/fonts/creato-medium.otf") format("opentype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+:root {
+  font-family: Creato, Arial, sans-serif;
+  color: #2a4a92;
+  --surface: #f4f2eb;
+  --canvas: #eae9e5;
+  --ink: #2a4a92;
+  --muted: #405a91;
+  --line: #d0d7e6;
+  --window-radius: 16px;
+  --green: #2a4a92;
+  --green-dark: #203c79;
+  --selected: #c1ff72;
+  --selected-ink: #2a4a92;
+  --accent: #c1ff72;
+  --accent-ink: #2a4a92;
+  --focus: #2a4a92;
+  --error: #a43232;
+  --warning: #78540f;
+  --control-surface: #f4f2eb;
+  --hover: #e9eddc;
+  --tooltip-surface: #f4f2eb;
+  --tooltip-ink: #2a4a92;
+  --brand-wordmark: #2a4a92;
+  --brand-mark-bg: #2a4a92;
+  --brand-mark-ink: #f4f2eb;
+  --shadow: 0 12px 36px #2a4a9218;
+}
+
+:root,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: Creato, Arial, sans-serif;
+}
+
+.app {
+  color: var(--ink);
+  background: var(--canvas);
+}
+
+.app[data-theme="night"] {
+  color-scheme: light;
+  --surface: #f4f2eb;
+  --canvas: #eae9e5;
+  --ink: #2a4a92;
+  --muted: #405a91;
+  --line: #d0d7e6;
+  --green: #2a4a92;
+  --green-dark: #203c79;
+  --selected: #c1ff72;
+  --selected-ink: #2a4a92;
+  --accent: #c1ff72;
+  --accent-ink: #2a4a92;
+  --focus: #2a4a92;
+  --error: #a43232;
+  --warning: #78540f;
+  --control-surface: #f4f2eb;
+  --hover: #e9eddc;
+  --tooltip-surface: #f4f2eb;
+  --tooltip-ink: #2a4a92;
+  --brand-wordmark: #2a4a92;
+  --brand-mark-bg: #2a4a92;
+  --brand-mark-ink: #f4f2eb;
+  --shadow: 0 12px 36px #2a4a9218;
+}
+
+.app h1,
+.app h2,
+.app h3,
+.app h4,
+.app h5,
+.app h6,
+.app .popover-heading h2,
+.app .task-heading h2 {
+  font-family: "Clash Display", Creato, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.app .project-trigger,
+.app .project-name-form input {
+  font-family: "Clash Display", Creato, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.app .brand strong,
+.app .canvas-brand strong {
+  color: var(--brand-wordmark);
+  font-family: "Clash Display", Creato, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.055em;
+  line-height: 0.82;
+}
+
+.app .canvas-brand strong {
+  font-size: 42px;
+  letter-spacing: -0.065em;
+}
+
+.app .brand-mark {
+  display: grid;
+  place-items: center;
+  background: var(--brand-mark-bg);
+  color: var(--brand-mark-ink);
+  font-family: "Clash Display", Creato, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+  line-height: 0.82;
+}
+
+.app .canvas-brand,
+.app .canvas-brand.is-night {
+  color: var(--brand-wordmark);
+}
+
+.app .canvas-brand .brand-mark,
+.app .canvas-brand.is-night .brand-mark {
+  width: 42px;
+  height: 42px;
+  display: block;
+  flex: none;
+  object-fit: contain;
+  border: 0;
+  border-radius: 0;
+  background: none;
+}
+
+.app .canvas-brand.is-night,
+.app .canvas-brand.is-night strong {
+  color: #c1ff72;
+}
+
+@media (max-width: 600px) {
+  .app .canvas-brand strong {
+    font-size: 31px;
+  }
+
+  .app .canvas-brand .brand-mark {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+.app .topbar,
+.app .tool-rail,
+.app .task-panel,
+.app .view-controls,
+.app .history-controls,
+.app .popover,
+.app .status,
+.app .unsaved-dialog,
+.app .comment-dialog,
+.app .comment-detail-dialog,
+.app .room-shape-options,
+.app .settings-options {
+  background-color: var(--surface);
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.app .popover {
+  border-radius: var(--window-radius);
+}
+
+.unsaved-dialog,
+.room-shape-dialog,
+.comment-dialog,
+.comment-detail-dialog {
+  border-radius: var(--window-radius);
+}
+
+.app .button,
+.app .icon-button,
+.app .rail-button,
+.app .category-button,
+.app .placed-item,
+.app .saved-project-action,
+.app .header-tool,
+.app .settings-option,
+.app .room-shape-option,
+.app .view-switch > button,
+.app .top-view-switch > button,
+.app .history-controls .button,
+.app .view-controls .button {
+  color: var(--ink);
+}
+
+.app .button:not(.primary):not(:disabled):hover,
+.app .icon-button:not(:disabled):hover,
+.app .rail-button:not(:disabled):hover,
+.app .category-button:hover,
+.app .placed-item:hover,
+.app .saved-project-action:hover:not(:disabled),
+.app .header-tool:not(:disabled):hover,
+.app .settings-option:hover,
+.app .room-shape-option:hover,
+.app .view-switch > button:not(:disabled):hover,
+.app .top-view-switch > button:not(:disabled):hover {
+  border-color: var(--line);
+  background: var(--hover);
+  color: var(--ink);
+}
+
+.app button[aria-pressed="true"],
+.app .rail-button[aria-expanded="true"],
+.app .saved-project-action.is-pinned,
+.app .settings-option[aria-pressed="true"],
+.app .room-shape-option[aria-pressed="true"],
+.app .view-switch > button[aria-pressed="true"] {
+  background: var(--selected);
+  color: var(--selected-ink);
+}
+
+.app .comment-detail-icon-button,
+.app .comment-detail-icon-button[aria-pressed="true"] {
+  border-color: transparent;
+  background: transparent;
+}
+
+.app .comment-detail-icon-button[aria-pressed="true"] {
+  color: var(--green-dark);
+}
+
+.app .comment-detail-actions .comment-detail-delete {
+  color: var(--error);
+}
+
+.app .top-view-switch > button[aria-pressed="true"] {
+  background: transparent;
+  color: var(--selected-ink);
+}
+
+.app .top-view-switch > button:not(:disabled):hover {
+  border-color: transparent;
+  background: transparent;
+  color: var(--ink);
+}
+
+.app .comments-popover .comment-mode-start:not(:disabled):hover {
+  border-color: var(--selected);
+  background: var(--selected);
+  color: var(--ink);
+}
+
+.app .top-view-switch > button[aria-pressed="true"]:hover {
+  color: var(--selected-ink);
+}
+
+.app .settings-trigger:hover,
+.app .settings-trigger[aria-expanded="true"] {
+  border-color: var(--selected);
+  background: var(--selected);
+  color: var(--selected-ink);
+}
+
+.app .button.primary,
+.app .header-tool.save-tool {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.app .button.primary:not(:disabled):hover,
+.app .header-tool.save-tool:not(:disabled):hover {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-ink);
+  filter: brightness(0.96);
+}
+
+.app .top-view-switch {
+  border-color: var(--line);
+  background: var(--control-surface);
+}
+
+.app .input-wrap,
+.app .input-wrap input,
+.app input,
+.app select,
+.app textarea,
+.app .rename-row input,
+.app .project-name-form input {
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.app .input-wrap,
+.app input,
+.app select,
+.app textarea,
+.app .rename-row input,
+.app .project-name-form input {
+  background-color: var(--control-surface);
+}
+
+.app .input-wrap input {
+  background: transparent;
+}
+
+.app .room-dimension-input-wrap {
+  background: var(--surface);
+}
+
+.app .room-dimension-input-wrap input {
+  background: transparent;
+}
+
+.app input.room-dimension-slider {
+  background: transparent;
+}
+
+.app input::placeholder,
+.app textarea::placeholder {
+  color: var(--muted);
+  opacity: 0.8;
+}
+
+.app .pill-tooltip,
+.app .rail-tooltip,
+.app .camera-tooltip,
+.app .object-wheel-tooltip,
+.app .room-shape-tooltip,
+.app .settings-tooltip {
+  border-color: #d0d7e6;
+  background: var(--tooltip-surface);
+  color: var(--tooltip-ink);
+  font-family: Creato, Arial, sans-serif;
+  font-weight: 500;
+  text-shadow: none;
+}
+
+.app .shortcut-popover {
+  color: var(--ink);
+}
+
+.app .shortcut-popover .shortcut-entry dt,
+.app .shortcut-popover .shortcut-entry dd,
+.app .shortcut-popover .shortcut-entry kbd {
+  color: var(--ink);
+  font-family: Creato, Arial, sans-serif;
+  text-shadow: none;
+}
+
+.app .snapshot-summary,
+.app .operation-state {
+  border-color: var(--line);
+  background: var(--control-surface);
+  color: var(--ink);
+}
+
+.app .canvas-meta {
+  color: var(--muted);
+}
+
+.app[data-theme="night"] .canvas-area.is-night .canvas-meta {
+  color: var(--muted);
+}
+
+.app .field-error,
+.app .error-text,
+.app .status-error {
+  color: var(--error);
+}
+
+.app .status-warning,
+.app .advice {
+  color: var(--warning);
+}
+
+.app .status-success > svg {
+  color: var(--green);
+}
+
+.app :focus-visible {
+  outline-color: var(--focus);
+}
+
+.app ::selection {
+  background: var(--selected);
+  color: var(--selected-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app *,
+  .app *::before,
+  .app *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

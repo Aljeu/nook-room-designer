@@ -1,0 +1,33 @@
+{
+  "name": "nook-room-designer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "thumbnails:prepare": "node scripts/prepare-thumbnails.mjs",
+    "thumbnails:check": "node scripts/prepare-thumbnails.mjs --check && vitest run src/ui/preparedThumbnail.test.tsx"
+  },
+  "dependencies": {
+    "dexie": "4.4.7",
+    "lucide-react": "^1.68.0",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "three": "0.187.0",
+    "zod": "4.6.7",
+    "zustand": "5.0.16"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.187.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "fake-indexeddb": "6.2.7",
+    "typescript": "5.9.3",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}

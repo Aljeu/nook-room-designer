@@ -1,0 +1,503 @@
+{
+  "sourceHash": "f3c6aa099a222ddfbeba34233f780617d65da7662ed6e1271e6c92b71788f9af",
+  "entries": [
+    {
+      "kind": "furniture",
+      "id": "SOF-SCA-01",
+      "key": "[\"furniture\",\"SOF-SCA-01\",{\"widthMm\":1800,\"depthMm\":880,\"heightMm\":800},[[\"Frame\",\"OAK\"],[\"Upholstery\",\"LIN\"]]]",
+      "sha256": "dec3e0c2f78dd476275e6423113a957897053a50673e21ea05b4a16cf68dfc48"
+    },
+    {
+      "kind": "furniture",
+      "id": "SOF-MCM-01",
+      "key": "[\"furniture\",\"SOF-MCM-01\",{\"widthMm\":2100,\"depthMm\":860,\"heightMm\":780},[[\"Frame\",\"WAL\"],[\"Upholstery\",\"SAG\"]]]",
+      "sha256": "40bcac1c6bbd7b70f3bd9e165d754e7998e9ec0058281101bff36814940240d0"
+    },
+    {
+      "kind": "furniture",
+      "id": "SOF-SCA-02",
+      "key": "[\"furniture\",\"SOF-SCA-02\",{\"widthMm\":2500,\"depthMm\":1550,\"heightMm\":860},[[\"Frame\",\"OAK\"],[\"Upholstery\",\"LIN\"]]]",
+      "sha256": "99b05c8a280b25a8fc12849730a3428056cd5179893d2753e5894e1d46104937"
+    },
+    {
+      "kind": "furniture",
+      "id": "SOF-MCM-02",
+      "key": "[\"furniture\",\"SOF-MCM-02\",{\"widthMm\":2600,\"depthMm\":1020,\"heightMm\":900},[[\"Frame\",\"WAL\"],[\"Upholstery\",\"CRM\"]]]",
+      "sha256": "fd1cfd382a384dcbcda80fd02d05456c80f97b2f6dd0987ad43f97d4b391f294"
+    },
+    {
+      "kind": "furniture",
+      "id": "SOF-MCM-03",
+      "key": "[\"furniture\",\"SOF-MCM-03\",{\"widthMm\":2300,\"depthMm\":1100,\"heightMm\":850},[[\"Frame\",\"WAL\"],[\"Upholstery\",\"OAT\"]]]",
+      "sha256": "b7e1a83681a768e4d1ac54ed0ae9e267308e9960efc74387b50315d158093699"
+    },
+    {
+      "kind": "furniture",
+      "id": "SOF-MCM-04",
+      "key": "[\"furniture\",\"SOF-MCM-04\",{\"widthMm\":2050,\"depthMm\":900,\"heightMm\":840},[[\"Frame\",\"OAK\"],[\"Upholstery\",\"LIN\"]]]",
+      "sha256": "ebc467ae5b2e77782e915b2b49a170dc25ed970a1535af76506a0670a46535f8"
+    },
+    {
+      "kind": "furniture",
+      "id": "SOF-SCA-03",
+      "key": "[\"furniture\",\"SOF-SCA-03\",{\"widthMm\":1800,\"depthMm\":950,\"heightMm\":560},[[\"Frame\",\"WAL\"],[\"Upholstery\",\"SAG\"]]]",
+      "sha256": "b07ed5cbebfaa745f3ebec8345177e1c07cf9692fb613cafe75d314b981589b2"
+    },
+    {
+      "kind": "furniture",
+      "id": "CHR-SCA-01",
+      "key": "[\"furniture\",\"CHR-SCA-01\",{\"widthMm\":760,\"depthMm\":820,\"heightMm\":780},[[\"Frame\",\"OAK\"],[\"Upholstery\",\"LIN\"]]]",
+      "sha256": "9193806fb4085c9c15080280991afafbcdc524b2d4125c4b191eb921a93bf94d"
+    },
+    {
+      "kind": "furniture",
+      "id": "CHR-MCM-01",
+      "key": "[\"furniture\",\"CHR-MCM-01\",{\"widthMm\":780,\"depthMm\":860,\"heightMm\":800},[[\"Frame\",\"WAL\"],[\"Upholstery\",\"SAG\"]]]",
+      "sha256": "8757880c1938241ce793ad8d53a43381238832bdbb4f48560bd131b704d8aa68"
+    },
+    {
+      "kind": "furniture",
+      "id": "CFT-SCA-01",
+      "key": "[\"furniture\",\"CFT-SCA-01\",{\"widthMm\":1100,\"depthMm\":580,\"heightMm\":380},[[\"Frame\",\"OAK\"],[\"Top\",\"OAK\"]]]",
+      "sha256": "64383dba20116b66aaf870f52e6f90e2e517f96f07707846726d17c4748b1cf0"
+    },
+    {
+      "kind": "furniture",
+      "id": "CFT-MCM-01",
+      "key": "[\"furniture\",\"CFT-MCM-01\",{\"widthMm\":1120,\"depthMm\":620,\"heightMm\":400},[[\"Frame\",\"WAL\"],[\"Top\",\"WAL\"]]]",
+      "sha256": "fe5e1ba9e8432bacb0dc442f2619ee814032604131a81383ff330b54a21e107d"
+    },
+    {
+      "kind": "furniture",
+      "id": "SFT-SCA-01",
+      "key": "[\"furniture\",\"SFT-SCA-01\",{\"widthMm\":420,\"depthMm\":420,\"heightMm\":520},[[\"Frame\",\"OAK\"],[\"Top\",\"OAK\"]]]",
+      "sha256": "caa57a40aac68cdfeb04e08d6307e62a09214e7eaf0dcf82f4e677c2341fc9aa"
+    },
+    {
+      "kind": "furniture",
+      "id": "SFT-MCM-01",
+      "key": "[\"furniture\",\"SFT-MCM-01\",{\"widthMm\":460,\"depthMm\":460,\"heightMm\":510},[[\"Frame\",\"WAL\"],[\"Top\",\"WAL\"]]]",
+      "sha256": "05ff55228dccef5f0d6df8374a6ad22a8fa305997d84e2fe6214272966378e9c"
+    },
+    {
+      "kind": "furniture",
+      "id": "MED-SCA-01",
+      "key": "[\"furniture\",\"MED-SCA-01\",{\"widthMm\":1600,\"depthMm\":400,\"heightMm\":480},[[\"Body\",\"OAK\"],[\"Frame\",\"CHA\"],[\"Fronts\",\"OFF\"]]]",
+      "sha256": "7604c96b3c7df9929787e0deb4c72499026f8570997edfe747e9e70e59ae628d"
+    },
+    {
+      "kind": "furniture",
+      "id": "MED-MCM-01",
+      "key": "[\"furniture\",\"MED-MCM-01\",{\"widthMm\":1700,\"depthMm\":420,\"heightMm\":550},[[\"Body\",\"WAL\"],[\"Frame\",\"WAL\"],[\"Fronts\",\"WAL\"]]]",
+      "sha256": "d1b55cb23f69cd242f454ff456c1281e724af2f82d6456613ab69f6c8294168a"
+    },
+    {
+      "kind": "furniture",
+      "id": "BKC-SCA-01",
+      "key": "[\"furniture\",\"BKC-SCA-01\",{\"widthMm\":800,\"depthMm\":320,\"heightMm\":1600},[[\"Body\",\"OAK\"]]]",
+      "sha256": "a1ce026a0ad8bc0ffa710315de4add9c3efa7f0a0b4f25f073c8d2a863406c6d"
+    },
+    {
+      "kind": "furniture",
+      "id": "BKC-MCM-01",
+      "key": "[\"furniture\",\"BKC-MCM-01\",{\"widthMm\":900,\"depthMm\":340,\"heightMm\":1550},[[\"Body\",\"WAL\"],[\"Frame\",\"WAL\"]]]",
+      "sha256": "5258645a8241e6f6a75eefc983a5f9699daeab39e089bc4003f4137c471c280f"
+    },
+    {
+      "kind": "furniture",
+      "id": "RUG-SCA-01",
+      "key": "[\"furniture\",\"RUG-SCA-01\",{\"widthMm\":2400,\"depthMm\":1700,\"heightMm\":10},[[\"TextileGround\",\"OAT\"],[\"TextileMotif\",\"RBL\"]]]",
+      "sha256": "c7bb1f117c30cf55ce4bc6c231a7bd4689537092d203affa746fb2e0ac01bfe1"
+    },
+    {
+      "kind": "furniture",
+      "id": "RUG-MCM-01",
+      "key": "[\"furniture\",\"RUG-MCM-01\",{\"widthMm\":2300,\"depthMm\":1600,\"heightMm\":10},[[\"TextileGround\",\"OAT\"],[\"TextileMotif\",\"RBL\"]]]",
+      "sha256": "211b452253d413ce3d97ea2caab361d6276e89701ad8d573c23fdbbf4ab6fd6a"
+    },
+    {
+      "kind": "furniture",
+      "id": "RUG-MCM-02",
+      "key": "[\"furniture\",\"RUG-MCM-02\",{\"widthMm\":2100,\"depthMm\":2100,\"heightMm\":10},[[\"TextileGround\",\"OAT\"],[\"TextileMotif\",\"OCHR\"]]]",
+      "sha256": "dac25bea6e2183378ba295a80142dc5d4da63f9c32ebe060daadc3fda681a49d"
+    },
+    {
+      "kind": "furniture",
+      "id": "RUG-MCM-03",
+      "key": "[\"furniture\",\"RUG-MCM-03\",{\"widthMm\":2300,\"depthMm\":1800,\"heightMm\":10},[[\"TextileGround\",\"CRM\"],[\"TextileMotif\",\"CHA\"]]]",
+      "sha256": "3749d111d1ba1ad38b7c1ec6627e5a4145c8bc8f7411a7fe821a164b0ba4331e"
+    },
+    {
+      "kind": "furniture",
+      "id": "RUG-MCM-04",
+      "key": "[\"furniture\",\"RUG-MCM-04\",{\"widthMm\":2000,\"depthMm\":2000,\"heightMm\":10},[[\"TextileGround\",\"CRM\"],[\"TextileMotif\",\"CHA\"]]]",
+      "sha256": "7cb758d33141f629f1a805d430cf5610018fb38966c095d0f2405700101f97a5"
+    },
+    {
+      "kind": "furniture",
+      "id": "RUG-MCM-05",
+      "key": "[\"furniture\",\"RUG-MCM-05\",{\"widthMm\":2500,\"depthMm\":1800,\"heightMm\":10},[[\"TextileGround\",\"CHA\"],[\"TextileMotif\",\"OFF\"]]]",
+      "sha256": "9df432e004fb60d737052d06096dc7d3eb14b783363afe3a30827ce704299e40"
+    },
+    {
+      "kind": "furniture",
+      "id": "LMP-SCA-01",
+      "key": "[\"furniture\",\"LMP-SCA-01\",{\"widthMm\":420,\"depthMm\":420,\"heightMm\":1500},[[\"Metalwork\",\"CHA\"],[\"Shade\",\"CRM\"]]]",
+      "sha256": "71e1ea7b4002b477a11a5c78300b25b5a7b0d332697f35aa982800f06bf283aa"
+    },
+    {
+      "kind": "furniture",
+      "id": "LMP-MCM-01",
+      "key": "[\"furniture\",\"LMP-MCM-01\",{\"widthMm\":550,\"depthMm\":550,\"heightMm\":1550},[[\"Frame\",\"WAL\"],[\"Metalwork\",\"BRZ\"],[\"Shade\",\"SWH\"]]]",
+      "sha256": "a09edd81dbfc30f059e127454dc17cd4f9cbbe6a7a369144828489fa1ce05ff3"
+    },
+    {
+      "kind": "furniture",
+      "id": "PLT-PLT-01",
+      "key": "[\"furniture\",\"PLT-PLT-01\",{\"widthMm\":900,\"depthMm\":900,\"heightMm\":1800},[[\"Leaf accents\",\"PLANT_LEAF_LIGHT\"],[\"Leaves\",\"PLANT_LEAF\"],[\"Planter\",\"CRM\"],[\"Soil\",\"PLANT_SOIL\"],[\"Trunk\",\"PLANT_TRUNK\"]]]",
+      "sha256": "e91692e976642d19f7b3777c88a2b554bfa7cad8a26d6d170e81b2cf185ddd77"
+    },
+    {
+      "kind": "furniture",
+      "id": "PLT-PLT-02",
+      "key": "[\"furniture\",\"PLT-PLT-02\",{\"widthMm\":1000,\"depthMm\":1000,\"heightMm\":1900},[[\"Frond accents\",\"PLANT_LEAF_LIGHT\"],[\"Fronds\",\"PLANT_LEAF\"],[\"Planter\",\"OFF\"],[\"Soil\",\"PLANT_SOIL\"],[\"Trunk\",\"PLANT_TRUNK\"]]]",
+      "sha256": "9816921d7f0b293fd8437744f8789395e19a0d31abb70bee63fbef8087e7555d"
+    },
+    {
+      "kind": "furniture",
+      "id": "PLT-PLT-03",
+      "key": "[\"furniture\",\"PLT-PLT-03\",{\"widthMm\":750,\"depthMm\":750,\"heightMm\":1700},[[\"Leaf accents\",\"PLANT_LEAF_LIGHT\"],[\"Leaves\",\"PLANT_LEAF\"],[\"Planter\",\"CHA\"],[\"Soil\",\"PLANT_SOIL\"],[\"Stand\",\"PLANT_METAL\"],[\"Trunk\",\"PLANT_TRUNK\"]]]",
+      "sha256": "d8735a76654346dd0a467472811741c13eebbb447c8c57e26b85f4db93b19db2"
+    },
+    {
+      "kind": "furniture",
+      "id": "CHR-FIL-01",
+      "key": "[\"furniture\",\"CHR-FIL-01\",{\"widthMm\":780,\"depthMm\":850,\"heightMm\":820},[[\"Frame\",\"OAK\"],[\"Upholstery\",\"LIN\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "1f9c3c25e46a2584d1a33b1c6e204910483a6d4563a594cc2ca33516323fe911"
+    },
+    {
+      "kind": "furniture",
+      "id": "SOF-FIL-01",
+      "key": "[\"furniture\",\"SOF-FIL-01\",{\"widthMm\":1900,\"depthMm\":850,\"heightMm\":820},[[\"Frame\",\"OAK\"],[\"Upholstery\",\"LIN\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "3b3629e5c19c175c88dab53311f9aaad1f7b8d34f6f974012ae66cefa3ab4a22"
+    },
+    {
+      "kind": "furniture",
+      "id": "SOF-FIL-02",
+      "key": "[\"furniture\",\"SOF-FIL-02\",{\"widthMm\":1850,\"depthMm\":850,\"heightMm\":1050},[[\"Frame\",\"WAL\"],[\"Upholstery\",\"CRM\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "5fce1e0bc5754d59d93b239aacd59eda912e995eb62c4675371c138cbf756457"
+    },
+    {
+      "kind": "furniture",
+      "id": "SOF-FIL-03",
+      "key": "[\"furniture\",\"SOF-FIL-03\",{\"widthMm\":1900,\"depthMm\":950,\"heightMm\":850},[[\"Frame\",\"OAK\"],[\"Upholstery\",\"CHA\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "4d1455bfb70139d6038a94158a84c6ac285fef7aa28a47e4d91ffb7860ee5eab"
+    },
+    {
+      "kind": "furniture",
+      "id": "CFT-FIL-01",
+      "key": "[\"furniture\",\"CFT-FIL-01\",{\"widthMm\":1100,\"depthMm\":600,\"heightMm\":400},[[\"Frame\",\"OAK\"],[\"Top\",\"OAK\"]]]",
+      "sha256": "794c3eb51c76bde50c5d16b62db97be4afd781a605ae8993efcb09acd9410f8c"
+    },
+    {
+      "kind": "furniture",
+      "id": "SFT-FIL-01",
+      "key": "[\"furniture\",\"SFT-FIL-01\",{\"widthMm\":450,\"depthMm\":450,\"heightMm\":520},[[\"Frame\",\"OAK\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "37f24e628eeb91267561751a80a6aa645918930f6477be522678d693c3f4c374"
+    },
+    {
+      "kind": "furniture",
+      "id": "MED-FIL-01",
+      "key": "[\"furniture\",\"MED-FIL-01\",{\"widthMm\":1600,\"depthMm\":420,\"heightMm\":500},[[\"Body\",\"OAK\"],[\"Frame\",\"OAK\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "c42e1c5e20df4e38cb2b8e10c3114b51c9942884df65eb872867ccab9cc30d9a"
+    },
+    {
+      "kind": "furniture",
+      "id": "BKC-FIL-01",
+      "key": "[\"furniture\",\"BKC-FIL-01\",{\"widthMm\":800,\"depthMm\":340,\"heightMm\":1600},[[\"Body\",\"OAK\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "183cf5a027e1b09f8c5836459817d76d4052089437dac1a51b5ff908534eb2e3"
+    },
+    {
+      "kind": "furniture",
+      "id": "RUG-FIL-01",
+      "key": "[\"furniture\",\"RUG-FIL-01\",{\"widthMm\":2300,\"depthMm\":1600,\"heightMm\":10},[[\"TextileGround\",\"OAT\"],[\"TextileMotif\",\"RBL\"]]]",
+      "sha256": "f2149738aab483b28067dc5512800b1f94dc1acdb1540f3628913388372084a2"
+    },
+    {
+      "kind": "furniture",
+      "id": "LMP-FIL-01",
+      "key": "[\"furniture\",\"LMP-FIL-01\",{\"widthMm\":450,\"depthMm\":450,\"heightMm\":1500},[[\"Frame\",\"OAK\"],[\"Metalwork\",\"CHA\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "0b719e2fcfc1e5071bd8c9f519e0b3b0904191cce0526b1f9b3cb103b010caac"
+    },
+    {
+      "kind": "furniture",
+      "id": "VNT-APP-01",
+      "key": "[\"furniture\",\"VNT-APP-01\",{\"widthMm\":460,\"depthMm\":420,\"heightMm\":1700},[[\"Display\",\"CHA\"],[\"Grille\",\"SIL\"],[\"Indicator\",\"SIL\"],[\"Shell\",\"OFF\"]]]",
+      "sha256": "ff737ce7f2e5934226c1b438af8cf18de1cdccac9def7a91eeca468d462a9c01"
+    },
+    {
+      "kind": "furniture",
+      "id": "VNT-APP-02",
+      "key": "[\"furniture\",\"VNT-APP-02\",{\"widthMm\":460,\"depthMm\":430,\"heightMm\":1450},[[\"Blade\",\"OFF\"],[\"Grille\",\"SIL\"],[\"Indicator\",\"SIL\"],[\"Shell\",\"OFF\"]]]",
+      "sha256": "4a76d6725b2468d275fe07780ca598a0644e870bfe107e318ac14c9837dce4cc"
+    },
+    {
+      "kind": "furniture",
+      "id": "NST-NSD-01",
+      "key": "[\"furniture\",\"NST-NSD-01\",{\"widthMm\":540,\"depthMm\":470,\"heightMm\":590},[[\"Body\",\"WAL\"],[\"Frame\",\"WAL\"],[\"Fronts\",\"WAL\"],[\"Hardware\",\"CHA\"]]]",
+      "sha256": "84dd0bbfc83627a8188af56f53dec0c93140d8c2b1b54987322f5b8b2ed93a9d"
+    },
+    {
+      "kind": "furniture",
+      "id": "NST-NSD-02",
+      "key": "[\"furniture\",\"NST-NSD-02\",{\"widthMm\":580,\"depthMm\":480,\"heightMm\":610},[[\"Body\",\"OFF\"],[\"Frame\",\"OFF\"],[\"Fronts\",\"OFF\"],[\"Hardware\",\"SIL\"]]]",
+      "sha256": "7fb51c9df074a6819ded457043a988272f429f0813751beb8d75fe9ce0492b58"
+    },
+    {
+      "kind": "furniture",
+      "id": "NST-NSD-03",
+      "key": "[\"furniture\",\"NST-NSD-03\",{\"widthMm\":560,\"depthMm\":450,\"heightMm\":570},[[\"Body\",\"ASH\"],[\"Frame\",\"ASH\"],[\"Fronts\",\"ASH\"],[\"Hardware\",\"GLD\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "24c6ed198cd43a5d88a51d908b8061ef9abd1c881d37c19d3257a421ddb1610e"
+    },
+    {
+      "kind": "furniture",
+      "id": "NST-NSD-04",
+      "key": "[\"furniture\",\"NST-NSD-04\",{\"widthMm\":520,\"depthMm\":450,\"heightMm\":560},[[\"Body\",\"OFF\"],[\"Frame\",\"OFF\"],[\"Fronts\",\"OFF\"],[\"Hardware\",\"OFF\"]]]",
+      "sha256": "88490f59dd37684a64fe68bb37458cf23a7407b67fc52c19f63d4f16b6d628ce"
+    },
+    {
+      "kind": "furniture",
+      "id": "ELC-ELC-01",
+      "key": "[\"furniture\",\"ELC-ELC-01\",{\"widthMm\":920,\"depthMm\":360,\"heightMm\":640},[[\"Frame\",\"CHA\"],[\"Screen\",\"SCREEN\"],[\"Stand\",\"CHA\"]]]",
+      "sha256": "279065689f5d0a50166d924fa06bb9b6d6a17e1eaf5782af7de588149297ea2e"
+    },
+    {
+      "kind": "furniture",
+      "id": "ELC-ELC-02",
+      "key": "[\"furniture\",\"ELC-ELC-02\",{\"widthMm\":330,\"depthMm\":250,\"heightMm\":260},[[\"Body\",\"SIL\"],[\"Keyboard\",\"CHA\"],[\"Screen\",\"SCREEN\"],[\"Trackpad\",\"SIL\"]]]",
+      "sha256": "60b5cbc443b99709872fd475a88647cdd6f5ec5e7859608f8028ea5f2c79cd5f"
+    },
+    {
+      "kind": "wall",
+      "id": "TV-WALL-01",
+      "key": "[\"wall\",\"TV-WALL-01\",1500,850,80,[[\"Frame\",\"CHA\"],[\"Screen\",\"SCREEN\"]]]",
+      "sha256": "534ec439d75fffbd8a76deb4c858c34855f51319a1cca5f5b9a412131758d1d1"
+    },
+    {
+      "kind": "wall",
+      "id": "AC-SPLIT-01",
+      "key": "[\"wall\",\"AC-SPLIT-01\",1300,800,310,[[\"Grille\",\"SIL\"],[\"Shell\",\"OFF\"]]]",
+      "sha256": "5f2b796adfc1a610e3a0748530e4b18f4de35a9eb86a576c8ca2003b1e5c7498"
+    },
+    {
+      "kind": "wall",
+      "id": "AC-WINDOW-01",
+      "key": "[\"wall\",\"AC-WINDOW-01\",900,600,260,[[\"Grille\",\"SIL\"],[\"Shell\",\"OFF\"]]]",
+      "sha256": "3d8dc37d9f19a13a957a38064fe951257bd6d2f506137042f03bc0875c289595"
+    },
+    {
+      "kind": "wall",
+      "id": "VENT-WALL-01",
+      "key": "[\"wall\",\"VENT-WALL-01\",800,440,70,[[\"Frame\",\"OFF\"],[\"Grille\",\"OFF\"]]]",
+      "sha256": "70d2af7a5afd404c1b48683b3bab2e03a775701df851fb8e1366b45ecf818bff"
+    },
+    {
+      "kind": "wall",
+      "id": "FAN-WALL-01",
+      "key": "[\"wall\",\"FAN-WALL-01\",480,560,300,[[\"Blade\",\"OFF\"],[\"Grille\",\"SIL\"],[\"Shell\",\"OFF\"]]]",
+      "sha256": "56d4bc85b4d46b87ad093bf557b2db5922300f92fad2dd0f22eeeb424c6390c2"
+    },
+    {
+      "kind": "wall",
+      "id": "PAN-FIL-01",
+      "key": "[\"wall\",\"PAN-FIL-01\",600,1800,25,[[\"Frame\",\"OAK\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "c2f11a6ac0c7c5b7b49176d1653869b50d8c55fc9110c1bc94519506165e5292"
+    },
+    {
+      "kind": "wall",
+      "id": "PAN-FIL-02",
+      "key": "[\"wall\",\"PAN-FIL-02\",1200,900,20,[[\"Body\",\"OAK\"]]]",
+      "sha256": "e7231065c31959711df0c1fedc6e0833fa92d330687ac86481c686d8d4b99dc6"
+    },
+    {
+      "kind": "wall",
+      "id": "WLP-FIL-01",
+      "key": "[\"wall\",\"WLP-FIL-01\",200,320,180,[[\"Frame\",\"OAK\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "bd7ee0691ee077e94533b14a335c15785bde3b1d985018585e265f490e56132b"
+    },
+    {
+      "kind": "wall",
+      "id": "WLP-FIL-02",
+      "key": "[\"wall\",\"WLP-FIL-02\",160,260,140,[[\"Frame\",\"OAK\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "4fd0bea55a470c019b7a0b4b5c8e966374b0e988a0489df107032d1b690d128b"
+    },
+    {
+      "kind": "wall",
+      "id": "ART-FIL-01",
+      "key": "[\"wall\",\"ART-FIL-01\",600,800,30,[[\"Frame\",\"OAK\"]]]",
+      "sha256": "8feafe5e0cf8ce133f97f2ce15f42515815f5b0657e6c9724f12f495255c6c1a"
+    },
+    {
+      "kind": "wall",
+      "id": "ART-FIL-02",
+      "key": "[\"wall\",\"ART-FIL-02\",900,600,30,[[\"Frame\",\"OAK\"]]]",
+      "sha256": "f3715bedaad0c7eb4fc81b362c82b1e757f19c99634072fd23b29d50ea4b4160"
+    },
+    {
+      "kind": "wall",
+      "id": "DEC-FIL-01",
+      "key": "[\"wall\",\"DEC-FIL-01\",600,600,35,[[\"Frame\",\"OAK\"],[\"Weave\",\"CAN\"]]]",
+      "sha256": "f3765bb5b4cfb6b52519c0ea087b1cd52e738fe8e58ec0d62ebbd7616c4e2fd9"
+    },
+    {
+      "kind": "wall",
+      "id": "MIR-FIL-01",
+      "key": "[\"wall\",\"MIR-FIL-01\",600,900,35,[[\"Frame\",\"OAK\"]]]",
+      "sha256": "abcdfef5a90536a1ef77742bf2430623cfca2051920d5dd610e0902053bd02a2"
+    },
+    {
+      "kind": "wall",
+      "id": "PAN-GEN-01",
+      "key": "[\"wall\",\"PAN-GEN-01\",1200,2400,20,[[\"Body\",\"OAK\"]]]",
+      "sha256": "5a41868f84b66382676f2947e4f7c610167d8048743a8c3f46ef52bfdc2860ac"
+    },
+    {
+      "kind": "wall",
+      "id": "PAN-GEN-02",
+      "key": "[\"wall\",\"PAN-GEN-02\",600,2400,35,[[\"Body\",\"OAK\"]]]",
+      "sha256": "c8759379a5d0136dd9d8c0df959257a755c06d21ac83d0824737acb3816c557e"
+    },
+    {
+      "kind": "wall",
+      "id": "WLP-GEN-01",
+      "key": "[\"wall\",\"WLP-GEN-01\",180,300,200,[[\"Metalwork\",\"CHA\"],[\"Shade\",\"CRM\"]]]",
+      "sha256": "b38ee8b6ed386d8818b0cbc43fbe0147ff955a615e098f45433cd49fca9b1f25"
+    },
+    {
+      "kind": "wall",
+      "id": "WLP-GEN-02",
+      "key": "[\"wall\",\"WLP-GEN-02\",160,260,180,[[\"Metalwork\",\"CHA\"]]]",
+      "sha256": "c4a9a217f2507b3c6fd0038bcf8bde85cd94045e5a503ccb9c11d6d801c7131d"
+    },
+    {
+      "kind": "wall",
+      "id": "ART-GEN-01",
+      "key": "[\"wall\",\"ART-GEN-01\",600,800,30,[[\"Frame\",\"OAK\"]]]",
+      "sha256": "a75ddafb115058c9c22c3a18ada7c18fcf5292fea96a46c14cfb6fd9d0e659f3"
+    },
+    {
+      "kind": "wall",
+      "id": "ART-GEN-02",
+      "key": "[\"wall\",\"ART-GEN-02\",650,650,38,[[\"Frame\",\"OAK\"]]]",
+      "sha256": "3bbeba2743d3cf414141a73f18fea2a0fcd7ba15c5bf5ef52656986ced16114f"
+    },
+    {
+      "kind": "wall",
+      "id": "ART-GEN-03",
+      "key": "[\"wall\",\"ART-GEN-03\",520,780,38,[[\"Frame\",\"OAK\"]]]",
+      "sha256": "6fee2319ce9025afc5f2533c6102c2b29d225f0659bb58d97fb849802cf29105"
+    },
+    {
+      "kind": "wall",
+      "id": "ART-GEN-04",
+      "key": "[\"wall\",\"ART-GEN-04\",520,780,38,[[\"Frame\",\"OAK\"]]]",
+      "sha256": "1e5143eaaf1f46b94e9bba3e5834215f6ad0fe4e197795ecd32aff850e1439fa"
+    },
+    {
+      "kind": "wall",
+      "id": "ART-GEN-05",
+      "key": "[\"wall\",\"ART-GEN-05\",920,600,38,[[\"Frame\",\"OAK\"]]]",
+      "sha256": "28ae27da80236274e558a4ba10aecfa38aabeef6e8a33b6294757f142cc10a8f"
+    },
+    {
+      "kind": "wall",
+      "id": "MIR-GEN-01",
+      "key": "[\"wall\",\"MIR-GEN-01\",600,600,30,[[\"Frame\",\"OAK\"]]]",
+      "sha256": "f3bcb768e0282426253f8693b9dee84118053bc10087ae4f2fdc0a2b85e99ec1"
+    },
+    {
+      "kind": "window",
+      "id": "WIN-FIL-01",
+      "key": "[\"window\",\"WIN-FIL-01\",1500,1200,900]",
+      "sha256": "c94cb4865773306114aeffa4ac0d86bdb747f802457a076e07d97e4227dcfeef"
+    },
+    {
+      "kind": "window",
+      "id": "WIN-FIL-02",
+      "key": "[\"window\",\"WIN-FIL-02\",1200,1200,900]",
+      "sha256": "3e5cf5690b8a92c2106752c1bd8a6ea5457c459297d40e76a0fa1e6bb44347eb"
+    },
+    {
+      "kind": "window",
+      "id": "WIN-GEN-01",
+      "key": "[\"window\",\"WIN-GEN-01\",1200,1200,900]",
+      "sha256": "7640f46de2dd1476f4e82a4974189e54629defbc6eb9830b7bdabe398700ed9f"
+    },
+    {
+      "kind": "window",
+      "id": "WIN-GEN-02",
+      "key": "[\"window\",\"WIN-GEN-02\",1600,1200,900]",
+      "sha256": "78c38663fbdb2acdf20feaaedb5d5e2919c3afb4f6846f4226b000ca5720b1f7"
+    },
+    {
+      "kind": "window",
+      "id": "WIN-GEN-03",
+      "key": "[\"window\",\"WIN-GEN-03\",900,1200,900]",
+      "sha256": "4d2e36df372ce40423109b955d68f91247898891e16436dafadfff860aee405c"
+    },
+    {
+      "kind": "door",
+      "id": "DR-MAIN-WOOD-01",
+      "key": "[\"door\",\"DR-MAIN-WOOD-01\",1000,2200,\"plank\",1,null,\"square\",\"WAL\",\"ESP\",\"CHA\"]",
+      "sha256": "b030084882d72e433bf56a6c3bb0e3529a81339278296dee4eb88e1ccb19505e"
+    },
+    {
+      "kind": "door",
+      "id": "DR-MAIN-SIDELIGHT-01",
+      "key": "[\"door\",\"DR-MAIN-SIDELIGHT-01\",1800,2200,\"plank\",1,350,\"square\",\"ESP\",\"CHA\",\"CHA\"]",
+      "sha256": "32c9dd1f62b19c8c0309e1eda9e8ad926673376c381fa5356c6308c2c8e8a7a9"
+    },
+    {
+      "kind": "door",
+      "id": "DR-MAIN-DOUBLE-01",
+      "key": "[\"door\",\"DR-MAIN-DOUBLE-01\",1800,2200,\"glazed\",2,null,\"classic\",\"ESP\",\"ESP\",\"CHA\"]",
+      "sha256": "e1c23f9fb20a1323e8ca93c25cd316746b03437e38b2c0b9088b544bdfac63ba"
+    },
+    {
+      "kind": "door",
+      "id": "DR-INT-WHITE-06",
+      "key": "[\"door\",\"DR-INT-WHITE-06\",900,2100,\"six-panel\",1,null,\"classic\",\"OFF\",\"OFF\",\"GLD\"]",
+      "sha256": "15806065494f35fa55454a69bf67dd11c7505053dddbb0ff9e50a93626b6e734"
+    },
+    {
+      "kind": "door",
+      "id": "DR-INT-DARK-06",
+      "key": "[\"door\",\"DR-INT-DARK-06\",900,2100,\"six-panel\",1,null,\"classic\",\"ESP\",\"ESP\",\"GLD\"]",
+      "sha256": "c7fff1a0c1f02191cbef36834e40c7269c490c62e509a31c866246aa33bfa965"
+    },
+    {
+      "kind": "door",
+      "id": "DR-INT-WALNUT-02",
+      "key": "[\"door\",\"DR-INT-WALNUT-02\",900,2100,\"two-panel\",1,null,\"square\",\"WAL\",\"ESP\",\"CHA\"]",
+      "sha256": "782c500e52a7ed2e91668cce4255bf7d6b8d3599fbe7fff2c13d7a415674ccc9"
+    },
+    {
+      "kind": "door",
+      "id": "DR-ARCH-ROUND-01",
+      "key": "[\"door\",\"DR-ARCH-ROUND-01\",1200,2300,\"archway\",1,null,\"arch\",\"OFF\",\"OFF\",\"OFF\"]",
+      "sha256": "82a3798631922a756f3299d4d14f433f4a13efafa90c045336d6a339907d8856"
+    },
+    {
+      "kind": "door",
+      "id": "DR-ARCH-CLASSIC-01",
+      "key": "[\"door\",\"DR-ARCH-CLASSIC-01\",1500,2400,\"archway\",1,null,\"classic\",\"OFF\",\"OFF\",\"OFF\"]",
+      "sha256": "b43fc73abf388d0fd34c186f1f3a834e5cc17128f68476b25855a543743ff21c"
+    },
+    {
+      "kind": "door",
+      "id": "DR-ARCH-MODERN-01",
+      "key": "[\"door\",\"DR-ARCH-MODERN-01\",1100,2400,\"archway\",1,null,\"arch\",\"OAK\",\"OAK\",\"OAK\"]",
+      "sha256": "f5ad1b55e54b57baef762135c813d8747e4c146b199d61d5251600ce56d652be"
+    }
+  ]
+}

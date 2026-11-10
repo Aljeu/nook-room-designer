@@ -1,0 +1,9 @@
+export const FORMAT_VERSION = 1 as const
+export const CATALOG_REVISION = 2 as const
+export const MAX_INSTANCES = 24
+export const MAX_OPENINGS = 8
+export const MAX_DOORWAYS = 6
+export const MAX_WINDOWS = 2
+export const ROOM_LIMITS = { widthMm: [1000, 12000], depthMm: [1000, 12000], heightMm: [2000, 5000] } as const
+export const DEFAULT_ROOM = { widthMm: 4000, depthMm: 3500, heightMm: 2700 } as const
+export const GRID_MM = 100

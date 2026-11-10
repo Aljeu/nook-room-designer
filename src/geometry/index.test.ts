@@ -1,0 +1,14 @@
+import { describe, expect, it } from 'vitest'
+import { createSampleProject } from '../domain/sample'
+import { getPlanPrimitives, openingPoints, transformPoint, validateProjectSpatial, wallSegments } from './index'
+import type { Opening } from '../domain/types'
+const sample=()=>createSampleProject((()=>{let n=0;return()=>String(++n)})()).project
+const hard=(p:ReturnType<typeof sample>)=>validateProjectSpatial(p).filter(i=>i.severity==='hard')
+describe('shared room geometry',()=>{
+ it('shows both closed and open door leaves with the inward swing',()=>{const p=sample();p.room.openings=[{id:'door',type:'door',wall:'N',offsetMm:500,widthMm:900,heightMm:2100,sillMm:0,hinge:'min'}];const path=getPlanPrimitives(p).openings[0].pathD;expect(path).toContain('M 500 0 L 1400 0');expect(path).toContain('M 500 0 L 500 900');expect(path).toContain('A 900 900')})
+ it('uses pinned quarter-turn transform and rejects the sample sofa rotation',()=>{const p=sample(),sofa=p.instances[0];expect(transformPoint(0,440,sofa)).toEqual({x:2000,z:1240});expect(transformPoint(0,440,{...sofa,quarterTurn:1})).toEqual({x:1560,z:800});expect(hard(p)).toEqual([]);sofa.quarterTurn=1;expect(hard(p).some(i=>i.code==='containment')).toBe(true)})
+ it('allows exact boundary contact and rejects a millimeter outside',()=>{const p=sample();p.instances=[{...p.instances[0],centerXMm:900,centerZMm:440}];expect(hard(p)).toEqual([]);p.instances[0].centerXMm=899;expect(hard(p)[0].code).toBe('containment')})
+ it('exempts rugs while warning on furniture overlap',()=>{const p=sample();expect(validateProjectSpatial(p).filter(i=>i.severity==='advisory')).toEqual([]);p.instances[1].centerZMm=1000;expect(validateProjectSpatial(p).some(i=>i.code==='furniture_overlap')).toBe(true)})
+ it('distinguishes rounded corners from enclosing boxes',()=>{const p=sample(),table=p.instances[1];p.instances=[{...table,id:'a',centerXMm:1200,centerZMm:1000},{...table,id:'b',centerXMm:2299,centerZMm:1579}];expect(validateProjectSpatial(p).some(i=>i.code==='furniture_overlap')).toBe(false)})
+ it('transforms openings, segments walls, and enforces one millimeter gaps',()=>{const p=sample();const door:Opening={id:'door',type:'door',wall:'N',offsetMm:500,widthMm:900,heightMm:2100,sillMm:0,hinge:'min'};const window:Opening={id:'window',type:'window',wall:'E',offsetMm:1000,widthMm:1200,heightMm:1200,sillMm:900};p.room.openings=[door,window];expect(openingPoints(p.room,door).a).toEqual({x:500,z:0});expect(openingPoints(p.room,window).end).toEqual({x:4000,z:2200});expect(wallSegments(p.room).some(s=>s.wall==='N'&&s.start===500&&s.end===1400&&s.bottom===2100)).toBe(true);expect(getPlanPrimitives(p).openings[0].pathD).toContain('500 900');p.room.openings[1]={...window,wall:'N',offsetMm:1400,widthMm:300};expect(hard(p).some(i=>i.code==='opening_overlap')).toBe(true);p.room.openings[1].offsetMm=1401;expect(hard(p).some(i=>i.code==='opening_overlap')).toBe(false)})
+})

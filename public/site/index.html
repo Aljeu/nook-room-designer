@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en" data-type="clash">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nook — Make room for your ideas</title>
+  <meta name="description" content="Explore your next living-room layout with Nook, a beginner-friendly 3D room planner.">
+  <link rel="preload" href="./fonts/clash-display-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="./site.css"><script src="./site.js" defer></script><script type="module" src="./catalogue.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="top" class="site-header wrap">
+  <a class="brand" href="./index.html" aria-label="Nook home">
+    <img class="brand-mark" src="./images/logos/nook-icon-blue-paper.svg" alt="">
+    <span class="brand-name">NOOK</span>
+  </a>
+  <nav aria-label="Main navigation"><a href="#explore">Explore</a><a href="#catalogue">Catalogue</a><a href="#compatibility">Plan &amp; export</a><a href="#closing">About Nook</a></nav>
+  <a class="button button-small" href="/editor/">Open the planner</a>
+</header>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-inner wrap">
+      <h1 id="hero-title">Make room for<br>your ideas.</h1>
+      <div class="hero-cube">
+        <div class="hero-room-frame">
+          <video class="hero-room" autoplay muted loop playsinline preload="auto" poster="./images/hero-isometric-room.png" aria-label="An isometric Nook room with a blue sofa, patterned rug, plants, and lighting.">
+            <source src="./video/hero-isometric-room.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p class="hero-description">A space that feels like you starts with a little exploring. Find your layout with Nook, your easy-to-use 3D room planner.</p>
+        <a class="button hero-button" href="/editor/">Design your room</a>
+      </div>
+    </div>
+  </section>
+  <section id="explore" class="intro" aria-labelledby="intro-title">
+    <div class="intro-stage">
+      <img class="intro-furniture intro-sofa" src="../thumbnails/furniture/SOF-MCM-03.png" alt="" aria-hidden="true" width="320" height="320" loading="lazy">
+      <img class="intro-furniture intro-nightstand" src="../thumbnails/furniture/NST-NSD-03.png" alt="" aria-hidden="true" width="320" height="320" loading="lazy">
+      <img class="intro-furniture intro-plant intro-plant-palm" src="../thumbnails/furniture/PLT-PLT-02.png" alt="" aria-hidden="true" width="320" height="320" loading="lazy">
+      <img class="intro-furniture intro-plant intro-plant-fig" src="../thumbnails/furniture/PLT-PLT-01.png" alt="" aria-hidden="true" width="320" height="320" loading="lazy">
+      <img class="intro-furniture intro-floor-lamp" src="../thumbnails/furniture/LMP-SCA-01.png" alt="" aria-hidden="true" width="320" height="320" loading="lazy">
+      <img class="intro-furniture intro-chair" src="../thumbnails/furniture/CHR-SCA-01.png" alt="" aria-hidden="true" width="320" height="320" loading="lazy">
+      <img class="intro-furniture intro-coffee-table" src="../thumbnails/furniture/CFT-SCA-01.png" alt="" aria-hidden="true" width="320" height="320" loading="lazy">
+      <img class="intro-furniture intro-window" src="../thumbnails/window/WIN-GEN-02.png" alt="" aria-hidden="true" width="160" height="160" loading="lazy">
+      <img class="intro-furniture intro-art" src="../thumbnails/wall/ART-GEN-03.png" alt="" aria-hidden="true" width="160" height="160" loading="lazy">
+      <img class="intro-furniture intro-door" src="../thumbnails/door/DR-INT-WALNUT-02.png" alt="" aria-hidden="true" width="160" height="160" loading="lazy">
+      <img class="intro-furniture intro-side-table" src="../thumbnails/furniture/SFT-MCM-01.png" alt="" aria-hidden="true" width="320" height="320" loading="lazy">
+      <img class="intro-furniture intro-rug" src="../thumbnails/furniture/RUG-MCM-02.png" alt="" aria-hidden="true" width="320" height="320" loading="lazy">
+      <div class="intro-copy">
+        <h2 id="intro-title">100+ pieces.<br>Your move.</h2>
+        <p>Build a room, rearrange it, change your mind, and try again. Nook makes exploring ideas part of the fun.</p>
+      </div>
+    </div>
+  </section>
+  <section id="catalogue" class="catalogue" aria-labelledby="catalogue-title">
+    <div class="catalogue-shell">
+      <div class="catalogue-heading"><h2 id="catalogue-title">Catalogue</h2></div>
+      <div class="catalogue-tabs" role="tablist" aria-label="Furniture categories"></div>
+      <div class="catalogue-card">
+        <div class="catalogue-viewer"><canvas id="catalogue-canvas" tabindex="0" aria-label="3D furniture preview. Drag horizontally to rotate; use left and right arrow keys."></canvas></div>
+        <div class="catalogue-copy" id="catalogue-details" aria-live="polite"><p class="catalogue-eyebrow" id="catalogue-category"></p><h3 id="catalogue-item-title"></h3><p id="catalogue-description"></p><p class="catalogue-item-name" id="catalogue-item-name"></p><p class="catalogue-dimensions" id="catalogue-dimensions"></p><fieldset class="catalogue-finish"><legend id="catalogue-finish-label"></legend><div class="catalogue-color-swatches" id="catalogue-color-swatches"></div></fieldset><a class="catalogue-cta" href="/editor/">Try it in Nook</a></div>
+      </div>
+    </div>
+  </section>
+  <section id="compatibility" class="compatibility" aria-labelledby="compatibility-title">
+    <div class="compatibility-grid wrap">
+      <div class="compatibility-copy">
+        <h2 id="compatibility-title">Design your room.<br>See the possibilities.</h2>
+        <p>Try ideas in 3D, check your layout in 2D, and make changes until it feels right. Whether you’re planning your own space or sharing an idea with a client, Nook helps bring it into view.</p>
+        <div class="compatibility-view-toggle" role="group" aria-label="Room preview view">
+          <button type="button" data-preview-view="3d" aria-pressed="true">3D</button>
+          <button type="button" data-preview-view="2d" aria-pressed="false">2D</button>
+        </div>
+        <div class="compatibility-exports">
+          <p class="compatibility-exports-label">Export in:</p>
+          <ul aria-label="Available export formats">
+            <li><strong>PNG</strong></li><li><strong>SVG</strong></li><li><strong>GLB</strong></li><li><strong>MP4</strong></li>
+          </ul>
+        </div>
+        <a class="compatibility-cta" href="/editor/">Open the planner</a>
+      </div>
+      <div class="compatibility-preview" data-view="3d">
+        <img class="compatibility-image compatibility-image-3d is-active" src="./images/compatibility-room-3d.png" alt="A Nook room arranged in isometric 3D, with a sofa, rug, plants, and lighting." width="1448" height="1086" loading="lazy">
+        <img class="compatibility-image compatibility-image-2d" src="./images/compatibility-room-2d.png" alt="A top-down 2D floor plan of a Nook room layout." width="1448" height="1086" loading="lazy" aria-hidden="true">
+        <span class="compatibility-view-label" aria-live="polite">3D view</span>
+      </div>
+    </div>
+  </section>
+  <section id="closing" class="closing" aria-label="About Nook">
+    <video class="closing-video" muted loop playsinline preload="metadata" poster="./video/nook-room-original-poster.png" aria-hidden="true"><source src="./video/nook-room-original.mp4" type="video/mp4"></video>
+    <div class="closing-content">
+      <div class="closing-brand" aria-label="Nook"><span>NOOK</span></div>
+      <p>A reading corner. A late-night setup. A room with no reason to match anyone else’s. Play with the pieces until you find your kind of cozy.</p>
+      <a class="closing-cta" href="/editor/">Find your Nook</a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer closing-footer">
+  <div class="closing-footer-inner">
+    <a class="closing-footer-brand" href="./index.html" aria-label="Nook home"><img src="./images/logos/nook-icon-lime-transparent.svg" alt="" width="64" height="64"></a>
+    <p>© 2026 Nook. Made by <a href="https://aljhone-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">Aljhone Agnas</a>.</p>
+    <nav aria-label="Footer navigation"><a href="#top">Back to top</a><a href="https://github.com/Aljeu" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">LinkedIn</a></nav>
+  </div>
+</footer>
+</body></html>
